@@ -1,19 +1,8 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  Container,
-  Typography,
-  Grid,
-  Card,
-  CardContent,
-  CardActions,
-  Theme,
-  CardMedia,
-} from "@material-ui/core";
+import { Container, Typography, Grid, Card, CardContent, CardMedia } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
   main: {
     marginTop: 100,
   },

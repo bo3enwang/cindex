@@ -1,6 +1,6 @@
-import { Box, Container, Typography, Grid, Card, CardContent, Theme, CardMedia } from "@material-ui/core";
+import { Box, Container, Typography, Grid, Card, CardContent, CardMedia } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { useRef, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -44,7 +44,7 @@ class TextBox {
   };
 }
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
   main: {
     position: "relative",
     height: "100vh",

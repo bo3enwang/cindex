@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import { AppBar, Toolbar, Typography, CssBaseline, Link as MuiLink, Button, Menu, MenuItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
@@ -167,10 +167,7 @@ interface AppProps {
 const _App = ({ Component, pageProps }: AppProps) => {
   const [top, setTop] = useState(0);
   const classes = useStyles();
-  const ref = useRef<any>();
-
   const router = useRouter();
-
   const isNotIndex = router.pathname !== "/";
 
   React.useEffect(() => {

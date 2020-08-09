@@ -1,24 +1,4 @@
-import Link from "next/link";
-import {
-  Box,
-  Button,
-  Container,
-  Typography,
-  Grid,
-  Card,
-  CardContent,
-  CardActions,
-  Theme,
-  CardMedia,
-  Paper,
-  CardHeader,
-  IconButton,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemAvatar,
-  Avatar,
-} from "@material-ui/core";
+import { Box, Container, Typography, Grid, Card, CardContent, Theme } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({

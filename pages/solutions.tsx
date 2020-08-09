@@ -1,18 +1,10 @@
 import React from "react";
 import {
-  Box,
-  Button,
   Container,
-  Typography,
   Grid,
   Card,
   CardContent,
-  CardActions,
-  Theme,
-  CardMedia,
-  Paper,
   CardHeader,
-  IconButton,
   List,
   ListItem,
   ListItemText,
@@ -21,10 +13,8 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import ImageIcon from "@material-ui/icons/Image";
-import WorkIcon from "@material-ui/icons/Work";
-import BeachAccessIcon from "@material-ui/icons/BeachAccess";
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
   main: {
     marginTop: 100,
   },
