@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
         <Head>
           {/* PWA primary color */}
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+          <meta name="tencent-site-verification" content="0c91912e4980f27bbda6eae4f10707c4"/>
         </Head>
         <body>
           <Main />
