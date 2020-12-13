@@ -21,7 +21,7 @@ function Copyright() {
         {"."}
       </Typography>
       <Typography variant="body2" align="center">
-        <a style={{ color: "#93bce0" }} href="https://beian.miit.gob.cn" target="_blank">
+        <a style={{ color: "#93bce0" }} href="https://beian.miit.gov.cn" target="_blank">
           黔ICP备20006892号-1
         </a>
       </Typography>
